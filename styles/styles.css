@@ -151,7 +151,6 @@ nav .btn-resume{
     margin: 15px 0 30px;
 }
 #card-section .card-box .card .card-text button{
-    color: rgb(13, 19, 33);
     font-size: 18px;
     font-weight: 600;
     line-height: 23px;
@@ -162,7 +161,10 @@ nav .btn-resume{
     opacity: 0.7;
     padding: 10px 16px 10px 16px;
     cursor: pointer;
-
+}
+#card-section .card-box .card .card-text button a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
 }
 #card-section .card-box .card img{
     width: 243px;
