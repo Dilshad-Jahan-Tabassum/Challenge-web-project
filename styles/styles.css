@@ -171,6 +171,7 @@ nav .btn-resume{
     height: 203px;
     /* border: 2px solid red; */
 }
+/* inspiration styles  */
 #inspiration{
     width: 1071px;
     height: 728px;
@@ -213,6 +214,141 @@ nav .btn-resume{
     width: 1045px;
     height: 550px;
     margin: 12px;
+}
+#target .target-container{
+    width: 1071px;
+    margin: 0 auto;
+    font-family: "Azeret Mono", monospace;
+}
+#target .target-container .target-text h2{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 141px 0 20px;
+}
+#target .target-container .target-text p{
+    width: 800px;
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 40px;
+    opacity: 0.7;
+    margin: 0 auto 40px;
+}
+#target .target-container .cards-container{
+    display: flex;
+    gap: 20px;
+}
+#target .target-container .cards-container .card{
+    width: 342px;
+    padding: 37px;
+    border-radius: 16px; 
+    background: rgba(255, 76, 30, 0.05);
+}
+#target .target-container .cards-container .card .card-text h4{
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 8px 0px;
+}
+#target .target-container .cards-container .card .card-text p{
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin: 8px 0px;
+}
+#target .target-container .cards-container .card .card-text a{
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    margin: 20px 0px;
+}
+#target .target-container .cards-container .card-2{
+    background: rgba(0, 76, 232, 0.05);
+}
+#target .target-container .cards-container .card-3{
+    background: rgba(255, 223, 0, 0.05);
+}
+/* handshake styles  */
+#handshake{
+    width: 1000px;
+    height: 250px;
+    border-radius: 16px;
+    margin: 45px auto;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)),
+     url('../assets/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: "Azeret Mono", monospace;
+    padding: 60px 40px 60px 40px;
+}
+#handshake .text-container h2{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#handshake .text-container p{
+    width: 569px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 0 auto 20px;
+}
+#handshake .input-submit{
+    text-align: center;
+}
+#handshake .input-submit input{
+    width: 515px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    padding: 19px 20px 19px 20px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+   
+}
+#handshake .input-submit button{
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    padding: 17px 20px 17px 20px;
+    background: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
 }
 
 /* footer  */
