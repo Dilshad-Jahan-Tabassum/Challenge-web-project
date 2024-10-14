@@ -70,6 +70,7 @@ nav .btn-resume{
     letter-spacing: 0%;
     cursor: pointer;
 }
+/* development styles  */
 #card-section{
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
@@ -163,4 +164,47 @@ nav .btn-resume{
     width: 243px;
     height: 203px;
     /* border: 2px solid red; */
+}
+#inspiration{
+    width: 1071px;
+    height: 728px;
+    margin: 0 auto;
+    font-family: "Azeret Mono", monospace;
+    /* border: 2px solid red; */
+}
+#inspiration .inspire-container h2{
+    width: 800px;
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin:  0 auto 22px;
+    
+}
+#inspiration .inspire-container p{
+    width: 800px;
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin:  0 auto 45px;
+}
+#inspiration .inspire-container .video-container{
+    height: 577px;
+    width: 1071px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    
+}
+#inspiration .inspire-container .video-container iframe{
+    border-radius: 16px;
+    width: 1045px;
+    height: 550px;
+    margin: 12px;
 }
